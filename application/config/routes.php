@@ -90,3 +90,6 @@ $route['unpublished/slider/(:num)'] = 'slider/unpublished_slider/$1';
 //Theme Option  Route List
 $route['theme/option'] = 'themeoption';
 $route['save/option']  = 'themeoption/save_option';
+
+//chat
+$route['chat'] = 'web/chat';

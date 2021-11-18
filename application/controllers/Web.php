@@ -441,7 +441,12 @@ class Web extends CI_Controller
 
     public function chat()
     {
-        $this->load->view('web/pages/chat');
+        $data                          = array();
+        $data['all_featured_products'] = $this->web_model->get_all_featured_product();
+        $data['all_new_products']      = $this->web_model->get_all_new_product();
+        $this->load->view('web/inc/header');
+        $this->load->view('web/pages/chat', $data);
+        $this->load->view('web/inc/footer');
     }
 
     public function logout()
