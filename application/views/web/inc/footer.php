@@ -51,12 +51,9 @@
                 </div>
             </div>
         </div>
-        <div class="container text-white ">
-        <div class="copyright text-center text-light ">
-            <center>
-            <div>Copyright &copy; COMMISSION ART <?= date('Y'); ?></div><br><br><br>
-            </center>
-        </div>
+        <div class="copy_right">
+            <p><b><?php echo get_option('site_copyright');?></b></p>
+        </div> 
     </div>
     </div>
 </div>

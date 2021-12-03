@@ -14,7 +14,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 align="center">Money Receipt</h1>
+                            <h1 align="center">Transaksi</h1>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                                         <tr>
                                             <td><?php echo $i; ?></td>
                                             <td><?php echo $single_order_details->product_name ?></td>
-                                            <td><img src="<?php echo base_url('uploads/' . $single_order_details->product_image); ?>" style="width:200px;height:100px"/></td>
+                                            <td><img src="<?php echo base_url('uploads/' . $single_order_details->product_image); ?>" style="auto"/></td>
                                             <td><?php echo $single_order_details->product_price ?></td>
                                             <td><?php echo $single_order_details->product_sales_quantity ?></td>
                                             <td><?php echo $single_order_details->product_price * $single_order_details->product_sales_quantity ?></td>
@@ -104,7 +104,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>= <?php echo $order_info->order_total ?> Rs.</td>
+                                <td>= <?php echo $order_info->order_total ?> Rp.</td>
                                 </tfoot>
                             </table>
                         </div>
@@ -115,7 +115,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <p align="center">Copyright By Rostom Ali</p>
+                            <p align="center">Copyright By Commission Art</p>
                         </div>
                     </div>
                 </div>

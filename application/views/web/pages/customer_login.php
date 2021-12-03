@@ -17,7 +17,7 @@
                 <input name="customer_email" placeholder="Enter Your Email" type="text"/>
                 <input name="customer_password" placeholder="Enter Your Password" type="password"/>
                 <p class="note">If you forgot your passoword just enter your email and click <a href="<?php echo base_url('/customer/register'); ?>">here</a></p>
-                <div class="buttons"><button class="grey"><a href="<?php echo base_url('/web/home'); ?>">Sign In</button></div>
+                <div class="buttons"><button class="grey">Sign In</button></div>
             </form>
         </div>	
         <div class="clear"></div>

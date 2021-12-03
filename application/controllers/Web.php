@@ -219,7 +219,7 @@ class Web extends CI_Controller
             if ($result) {
                 $this->session->set_userdata('customer_id', $result->customer_id);
                 $this->session->set_userdata('customer_email', $data['customer_email']);
-                redirect('/');
+                redirect('/home');
             } else {
                 $this->session->set_flashdata('message', 'Customer Login Fail');
                 redirect('customer/login');

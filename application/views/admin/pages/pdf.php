@@ -6,7 +6,7 @@
     <body>
         <div class="main">
             <div class="header_area">
-                <h1 align="center">Money Receipt</h1>
+                <h1 align="center">Transaksi</h1>
             </div>
             <div class="voucher_address">
                 <div class="customer_address">
@@ -73,7 +73,7 @@
                             <tr>
                                 <td><?php echo $i; ?></td>
                                 <td><?php echo $single_order_details->product_name ?></td>
-                                <td><img src="<?php echo base_url('uploads/' . $single_order_details->product_image); ?>" style="width:200px;height:100px"/></td>
+                                <td><img src="<?php echo base_url('uploads/' . $single_order_details->product_image); ?>" style="width:300px;height:168px"/></td>
                                 <td><?php echo $single_order_details->product_price ?></td>
                                 <td><?php echo $single_order_details->product_sales_quantity ?></td>
                                 <td><?php echo $single_order_details->product_price * $single_order_details->product_sales_quantity ?></td>
@@ -91,7 +91,7 @@
                 </table>
             </div>
             <div class="footer_area">
-                <p align="center">Copyright By Rostom Ali</p>
+                <p align="center">Copyright By Commission Art</p>
             </div>
 
         </div>
